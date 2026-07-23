@@ -150,3 +150,53 @@ details[open] summary::before{content:"– ";}
 footer{padding:32px 0 56px 0; font-size:0.85rem; color:var(--muted); text-align:center;}
 footer a{color:var(--muted);}
 ::selection{background:var(--accent); color:var(--paper);}
+
+
+
+/* ===========================
+   Conference Gallery
+   =========================== */
+
+.conference-gallery {
+    margin: 5rem 0;
+}
+
+.conference-gallery h2,
+.conference-gallery > .wrap > p {
+    max-width: 800px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.gallery-item {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.gallery-item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item figcaption {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
