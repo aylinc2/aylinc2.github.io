@@ -48,8 +48,10 @@ nav.top a:hover, nav.top a.active{color:var(--accent-warm); border-bottom-color:
 /* ---------- Hero ---------- */
 .hero{padding:64px 0 48px 0; text-align:center; border-bottom:1px solid var(--rule);}
 .hero img.headshot{
-  width:512px; height:512px; object-fit:cover; border-radius:50%;
-  margin:0 auto 22px auto; display:block; filter:grayscale(15%);
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 .hero h1{font-size:clamp(2rem,5vw,2.8rem); letter-spacing:-0.01em;}
 .pronounce{
