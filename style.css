@@ -48,7 +48,7 @@ nav.top a:hover, nav.top a.active{color:var(--accent-warm); border-bottom-color:
 /* ---------- Hero ---------- */
 .hero{padding:64px 0 48px 0; text-align:center; border-bottom:1px solid var(--rule);}
 .hero img.headshot{
-    width: 350px;
+    width: 250px;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
